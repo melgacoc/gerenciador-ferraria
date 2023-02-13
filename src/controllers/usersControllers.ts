@@ -21,6 +21,6 @@ export default class UserController {
 
     console.log(token);
 
-    res.status(201).json(token);
+    res.status(201).json({token});
   }
 }
