@@ -22,11 +22,11 @@ POST (/users): Adiciona um novo usuário
 POST (/login): Valida o user e senha
 
 ### Produtos
-GET (/products): Lista todos os produtos
+GET (/products): Lista todos os produtos <br>
 POST(/products): Cadastra um novo produto
 
 ### Pedidos
-GET (/orders): Lista os pedidos
+GET (/orders): Lista os pedidos <br>
 Post (/orders): Cadastra um novo pedido
 
 ### 
