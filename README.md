@@ -1,13 +1,40 @@
-# :construction: README customizado em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto no qual você pode customizar e reutilizar todas as vezes que for executar o trybe-publisher.
+# Gerenciador de ferraria
 
-Para deixá-lo com a sua cara, basta alterar o seguinte arquivo da sua máquina: ~/.student-repo-publisher/custom/_NEW_README.md
+## Aplicação
+Uma API para gerenciar uma loja de armaduras.
 
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+## Tecnologias
+Este projeto foi construído utilizando as seguintes tecnologias
+
+![Typescript Badge](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![Node Badge](https://img.shields.io/badge/Node%20js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Express Badge](https://img.shields.io/badge/Express%20js-000000?style=for-the-badge&logo=express&logoColor=white)
+![MYSQL Badge](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
+
+
+## Funcionalidades
+Este projeto foi construído utilizando as seguintes tecnologias
+
+### Usuários
+POST (/users): Adiciona um novo usuário
+
+### Login 
+POST (/login): Valida o user e senha
+
+### Produtos
+GET (/products): Lista todos os produtos
+POST(/products): Cadastra um novo produto
+
+### Pedidos
+GET (/orders): Lista os pedidos
+Post (/orders): Cadastra um novo pedido
+
+### 
+---
+## Instalação
+Crie e suba a imagem do docker: `docker-compose up -d`
+`docker exec -it trybesmith bash`
+
+Instale as dependências: `npm install`
+
+Suba a aplicação: `npm start`
